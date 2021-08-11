@@ -50,6 +50,7 @@ public class Main {
 //                .forEach(System.out::println);
 //        System.out.println("-------------------------------------");
 ////--------------------------------------------------------
+
 //
 //
 //        List<Integer> list1= new ArrayList<>();
