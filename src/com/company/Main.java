@@ -7,6 +7,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println("qweqweq");
+
 
 ////--------------------------------------------------------
 //        List<String> list = new ArrayList<>();
