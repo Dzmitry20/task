@@ -1,12 +1,7 @@
 package com.company;
 
-import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
-import java.util.stream.DoubleStream;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 public class Main {
 
@@ -155,15 +150,15 @@ public class Main {
 
 //--------------------------------------------------------------------
 
-
-        String text = "Егор Алла Александр";
-        Pattern pattern = Pattern.compile("А.+а");
-        Matcher matcher = pattern.matcher(text);
-        while (matcher.find()) {
-            System.out.println(text.substring(matcher.start(), matcher.end()));
-        }
-
-        String s="The root directory is \u00A7Windows";
-        System.out.println(s);
+//
+//        String text = "Егор Алла Александр";
+//        Pattern pattern = Pattern.compile("А.+а");
+//        Matcher matcher = pattern.matcher(text);
+//        while (matcher.find()) {
+//            System.out.println(text.substring(matcher.start(), matcher.end())); // NPM
+//        }
+//
+//        String s="The root directory is \u00A7Windows";
+//        System.out.println(s);// NPM
     }
 }
